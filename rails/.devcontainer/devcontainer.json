@@ -1,0 +1,13 @@
+{
+    "name": "Rails",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/usr/src/app",
+    "extensions": [
+        "rebornix.ruby",
+        "castwide.solargraph",
+        "kaiwood.endwise",
+        "rayhanw.erb-helpers"
+    ],
+    "remoteUser": "user"
+}  

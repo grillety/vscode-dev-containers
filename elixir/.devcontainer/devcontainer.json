@@ -1,0 +1,10 @@
+{
+    "name": "Elixir",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "elixir",
+    "workspaceFolder": "/src/app",
+    "extensions": [
+        "jakebecker.elixir-ls"
+    ],
+    "remoteUser": "vscode"
+}  

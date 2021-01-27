@@ -1,0 +1,14 @@
+version: "3"
+services:
+
+  elixir:
+    container_name: servy
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        ELIXIR_VERSION: "1.10"
+    image: servy:latest
+    volumes:
+      - ..:/src/app:cached
+    command: sleep infinity

@@ -1,0 +1,17 @@
+version: "3"
+services:
+
+  web:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        RAILS_VERSION: "6.0.1"
+        RUBY_VERSION: "2.6"
+    image: rails:6.0.1
+    ports:
+      - "3000:3000"
+    volumes:
+      - ..:/usr/src/app
+    command: sleep infinity
